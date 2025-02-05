@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>[RRP] Relax RP | RelaxRPGB</title>
+    <style>
+        body {
+            background-color: #000;
+            color: #fff;
+            font-family: Arial, sans-serif;
+            text-align: center;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+        }
+        .container {
+            padding: 50px;
+            position: relative;
+            z-index: 2;
+        }
+        h1 {
+            color: #ffffff;
+            font-weight: bold;
+            font-size: 36px;
+            animation: fadeIn 2s ease-in-out;
+        }
+        .btn {
+            display: inline-block;
+            margin: 15px;
+            padding: 15px 30px;
+            font-size: 18px;
+            text-decoration: none;
+            color: #000;
+            background: #fff;
+            border-radius: 5px;
+            transition: 0.3s;
+            animation: pulse 1.5s infinite;
+        }
+        .btn:hover {
+            background: #ccc;
+        }
+        .footer {
+            margin-top: 50px;
+            font-size: 14px;
+            color: #666;
+        }
+        @keyframes fadeIn {
+            from { opacity: 0; }
+            to { opacity: 1; }
+        }
+        @keyframes pulse {
+            0% { transform: scale(1); }
+            50% { transform: scale(1.05); }
+            100% { transform: scale(1); }
+        }
+        @keyframes slideIn {
+            from { transform: translateY(-20px); opacity: 0; }
+            to { transform: translateY(0); opacity: 1; }
+        }
+        .animated {
+            animation: slideIn 1s ease-out;
+        }
+    </style>
+</head>
+<body>
+    <div class="container animated">
+        <h1>Добро пожаловать в [RRP] Relax RP | RelaxRPGB</h1>
+        <p>📋 Role-play проект по игре GoreBox с качественным RP!</p>
+        <p><b>Тег проекта:</b> [RRP]</p>
+        
+        <a class="btn" href="https://t.me/+viaZTDNIGGtkMTBi" target="_blank">💬 Вступить в чат</a>
+        <a class="btn" href="https://telegra.ph/PRAVILA--RELAXRPGB-11-03" target="_blank">📜 Правила RP</a>
+        
+        <div class="footer">
+            <p>© 2025 [RRP] Relax RP | RelaxRPGB. Все права защищены.</p>
+        </div>
+    </div>
+    <audio controls autoplay loop>
+        <source src="https://www.bensound.com/bensound-music/bensound-slowmotion.mp3" type="audio/mp3">
+        Ваш браузер не поддерживает аудио.
+    </audio>
+</body>
+</html>
